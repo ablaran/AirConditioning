@@ -4,6 +4,11 @@ Application for **Flipper Zero** that controls an air conditioner using **RAW in
 
 ---
 
+## Preview
+![App Preview](images/preview.png)
+
+---
+
 ## Features
 - Send pre-recorded **RAW IR signals** (power on, power off, temperature control, dehumidifier).
 - Grid-based interface (2x3) with icons.
