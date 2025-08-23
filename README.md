@@ -33,3 +33,9 @@ The 2x3 grid provides the main controls:
 - **Dehumidifier Mode**  
 
 Signals are stored as `uint32_t` arrays with RAW IR patterns.
+
+---
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE.md](LICENSE.md) file for details.
