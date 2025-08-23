@@ -10,8 +10,8 @@ App(
     # Optional values
     # fap_version="0.1",
     fap_icon="airconditioning.png",  # 10x10 1-bit PNG
-    # fap_description="A simple app",
+    fap_description="Tokyo Ghoul-themed app for controlling the air conditioner via raw infrared signals.",
     fap_author="ablaran",
-    # fap_weburl="https://github.com/user/airconditioning",
+    fap_weburl="https://github.com/ablaran/AirConditioning",
     fap_icon_assets="images",  # Image assets to compile for this application
 )
