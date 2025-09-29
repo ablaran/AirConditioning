@@ -336,12 +336,12 @@ void send_my_signal(uint32_t signal[], size_t size) {
 static void input_callback(InputEvent* event, void* ctx) {
     bool* running = ctx;
 
-    // Holding the OK button will turn off the AC
     if(event->type == InputTypeLong && event->key == InputKeyBack) {
         *running = false; // Long press Back to exit app
         return;
     }
 
+    // Holding the OK button will turn off the AC
     if(event->type == InputTypeLong && event->key == InputKeyOk) {
         send_my_signal(ir_off_raw, sizeof(ir_off_raw) / sizeof(ir_off_raw[0]));
     }
