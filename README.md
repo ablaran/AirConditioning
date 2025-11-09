@@ -38,4 +38,4 @@ Signals are stored as `uint32_t` arrays with RAW IR patterns.
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the GPL-3.0 license. See the [LICENSE](LICENSE) file for details.
